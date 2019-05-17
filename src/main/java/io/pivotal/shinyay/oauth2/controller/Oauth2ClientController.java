@@ -71,7 +71,7 @@ public class Oauth2ClientController {
         OAuth2AccessToken oAuth2AccessToken = oAuth2AuthorizedClient.getAccessToken();
 
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "Bearer" + oAuth2AccessToken.getTokenType());
+        headers.add("Authorization", "Bearer " + oAuth2AccessToken.getTokenValue());
 
         HttpEntity<String> entity = new HttpEntity<>("parameters", headers);
         ResponseEntity<String> responseEntity;
