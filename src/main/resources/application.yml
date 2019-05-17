@@ -1,6 +1,6 @@
 server:
   port: 8081
-resources:
+resource:
   server:
     url: http://localhost:8082
 spring:
@@ -12,7 +12,7 @@ spring:
             client-name: Web App Client
             client-id: webappclient
             client-secret: webappclientsecret
-            scope: resource,read,resource,write,openid,profile
+            scope: resource.read,resource.write,openid,profile
         provider:
           uaa:
             issuer-uri: http://localhost:8080/uaa/oauth/token
