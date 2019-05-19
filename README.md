@@ -1,8 +1,15 @@
-# Name
+# Spring with Cloud Foundry UAA for OAuth2
 
 Overview
 
 ## Description
+I prepared UAA environment as the following procedure;
+
+### Cloud Foundry UAA
+#### Clone from GitHub as submodule
+```
+$ git submodule add https://github.com/cloudfoundry/uaa.git
+```
 
 ## Demo
 
