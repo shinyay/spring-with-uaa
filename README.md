@@ -49,6 +49,8 @@ $ uaac user add appuser -p appusersecret --emails appuser@pivotal.io
 
 #### Create Group
 ```
+$ uaac group add resource.read
+$ uaac group add resource.write
 ```
 
 #### Assign Group to User
