@@ -59,6 +59,14 @@ $ uaac member add resource.read appuser
 $ uaac member add resource.write appuser
 ```
 
+### Boot Run OAuth2 Client App
+```
+$ ./mvnw spring-boot:run
+```
+
+#### Open OAuth2 Client App
+
+
 ## Installation
 
 ## Licence
