@@ -42,7 +42,18 @@ $ uaac client add webappclient -s webappclientsecret \
 --redirect_uri http://localhost:8081/login/oauth2/code/uaa
 ```
 
-#### 
+#### Create User
+```
+$ uaac user add appuser -p appusersecret --emails appuser@pivotal.io
+```
+
+#### Create Group
+```
+```
+
+#### Assign Group to User
+```
+```
 
 ## Installation
 
