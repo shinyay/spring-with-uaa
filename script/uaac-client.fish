@@ -9,4 +9,4 @@ docker run --rm -v (pwd):/root -it shinyay/cf-uaac client add webappclient -s we
 --redirect_uri http://localhost:8081/login/oauth2/code/uaa
 
 echo "[VALIDAE UAA CLIENT]"
-docker run -v (pwd):/root -it shinyay/cf-uaac client get webappclient
+docker run --rm -v (pwd):/root -it shinyay/cf-uaac client get webappclient
