@@ -1,6 +1,7 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+.uaac.yml
 
 ### STS ###
 .apt_generated
