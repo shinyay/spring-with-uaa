@@ -21,6 +21,16 @@ $ git submodule add https://github.com/cloudfoundry/uaa.git
 ## Requirement
 
 ## Usage
+### Clients and Users Population with using UAAC
+#### Target UAA
+```
+$ uaac target http://(hostname):8080/uaa
+```
+
+#### Retrieve Token from UAA
+```
+$ uaac token client get admin -s adminsecret
+```
 
 ## Installation
 
