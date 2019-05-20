@@ -65,7 +65,12 @@ $ ./mvnw spring-boot:run
 ```
 
 #### Open OAuth2 Client App
+```
+$ open http://(hostname):8081/login
+```
 
+- USERID: appuser
+- PASSWD: appusersecret
 
 ## Installation
 
