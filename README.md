@@ -55,6 +55,8 @@ $ uaac group add resource.write
 
 #### Assign Group to User
 ```
+$ uaac member add resource.read appuser
+$ uaac member add resource.write appuser
 ```
 
 ## Installation
