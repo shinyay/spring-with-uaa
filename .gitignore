@@ -2,6 +2,8 @@ HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 .uaac.yml
+signingkey.pem
+verificationkey.pem
 
 ### STS ###
 .apt_generated
