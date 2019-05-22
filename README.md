@@ -24,7 +24,13 @@ $ git submodule add https://github.com/cloudfoundry/uaa.git
 ### Run UAA Server
 #### Datasource for UAA
 ```
-set -x SPRING_PROFILES "default,hsqldb"
+$ set -x SPRING_PROFILES "default,hsqldb"
+```
+
+#### Key pair for JWT
+```
+$ openssl genrsa -out signingkey.pem 2048
+$ openssl rsa -in signingkey.pem -pubout -out verificationkey.pem
 ```
 
 ### Clients and Users Population with using UAAC
