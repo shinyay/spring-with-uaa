@@ -33,6 +33,12 @@ $ openssl genrsa -out signingkey.pem 2048
 $ openssl rsa -in signingkey.pem -pubout -out verificationkey.pem
 ```
 
+#### Run UAA Server
+```
+$ cd uaa
+$ ./gradlew run
+```
+
 ### Clients and Users Population with using UAAC
 #### Target UAA
 ```
