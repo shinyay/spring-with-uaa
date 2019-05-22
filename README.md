@@ -77,7 +77,7 @@ $ uaac member add resource.read appuser
 $ uaac member add resource.write appuser
 ```
 
-### Boot Run OAuth2 Client App
+### Run OAuth2 Client App
 ```
 $ ./mvnw spring-boot:run
 ```
@@ -90,10 +90,8 @@ $ open http://(hostname):8081/login
 - USERID: appuser
 - PASSWD: appusersecret
 
-### Run UAA Client
-```
-$ ./mvnw spring-boot:run
-```
+### Configure Application Authorization
+- `resource.write`: OFF
 
 ## Installation
 
