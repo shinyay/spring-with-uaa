@@ -21,6 +21,12 @@ $ git submodule add https://github.com/cloudfoundry/uaa.git
 ## Requirement
 
 ## Usage
+### Run UAA Server
+#### Datasource for UAA
+```
+set -x SPRING_PROFILES "default,hsqldb"
+```
+
 ### Clients and Users Population with using UAAC
 #### Target UAA
 ```
