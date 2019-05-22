@@ -20,6 +20,23 @@ $ git submodule add https://github.com/cloudfoundry/uaa.git
 
 ## Requirement
 
+## OAuth2 Configuration
+
+```
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          uaa:
+            client-name: Web App Client
+            client-id: webappclient
+            client-secret: webappclientsecret
+            scope: resource.read,resource.write,openid,profile
+        provider:
+          uaa:
+            issuer-uri: http://localhost:8080/uaa/oauth/token
+```
 ## Usage
 ### Run UAA Server
 #### Datasource for UAA
