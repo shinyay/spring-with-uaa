@@ -90,6 +90,11 @@ $ open http://(hostname):8081/login
 - USERID: appuser
 - PASSWD: appusersecret
 
+### Run UAA Client
+```
+$ ./mvnw spring-boot:run
+```
+
 ## Installation
 
 ## Licence
