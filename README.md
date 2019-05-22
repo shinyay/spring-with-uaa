@@ -3,6 +3,8 @@
 Overview
 
 ## Description
+
+- [Resource Server](https://github.com/shinyay/spring-with-uaa-resource-server)
 I prepared UAA environment as the following procedure;
 
 ### Cloud Foundry UAA
