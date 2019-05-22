@@ -14,7 +14,7 @@ $ git submodule add https://github.com/cloudfoundry/uaa.git
 ```
 
 ## Demo
-
+![](images/OAuth2_AuthorizationFlow.png)
 ## Features
 
 - feature:1
